@@ -1,0 +1,52 @@
+[
+  {
+    "name": "nana",
+    "interval": 10,
+    "deadline": 5
+  },
+  {
+    "name": "basil",
+    "interval": 10,
+    "deadline": 5
+  },
+  {
+    "name": "peppers",
+    "interval": 0,
+    "deadline": 0
+  },
+  {
+    "name": "rosmarin",
+    "interval": 0,
+    "deadline": 0
+  },
+  {
+    "name": "Irit",
+    "interval": 0,
+    "deadline": 0
+  },
+  {
+    "name": "parsil",
+    "interval": 0,
+    "deadline": 0
+  },
+  {
+    "name": "green_onion",
+    "interval": 0,
+    "deadline": 0
+  },
+  {
+    "name": "palm",
+    "interval": 0,
+    "deadline": 0
+  },
+  {
+    "name": "lilly",
+    "interval": 0,
+    "deadline": 0
+  },
+  {
+    "name": "ivy",
+    "interval": 0,
+    "deadline": 0
+  }
+]
