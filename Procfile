@@ -1,1 +1,1 @@
-web: gunicorn plant-tracker:plant-tracker
+web: gunicorn app:app
