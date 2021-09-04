@@ -22,3 +22,5 @@ def restart_timer(timer_id):
 
 if __name__ == '__main__':
     app.run()
+
+print("test")
