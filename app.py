@@ -7,6 +7,13 @@ import json
 app = Flask(__name__)
 cors = CORS(app)
 
+@app.route('/', methods=["GET"])
+def index():
+    return app.send_static_file('index.html')
+
+@app.route('/favicon.ico', methods=["GET"])
+def favicon():
+    return app.send_static_file('favicon.ico')
 
 @app.route('/api/timers')
 def get_timers():
@@ -22,5 +29,3 @@ def restart_timer(timer_id):
 
 if __name__ == '__main__':
     app.run()
-
-print("test")
